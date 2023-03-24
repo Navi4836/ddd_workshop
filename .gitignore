@@ -1,0 +1,33 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+gradle/
+build/
+gradlew.bat
+gradlew
+!**/src/main/**/build
+!**/src/test/**/build
+.classpath
+.project
+.settings/
+target/
+
+# Ignore Gradle build output directory
+build
+
+# Ignore idea files
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out
+!**/src/test/**/out
+
+# Git
+.gitattributes
+
+###Mac
+.DS_Store
+
+# Compiled class file
+*.class
