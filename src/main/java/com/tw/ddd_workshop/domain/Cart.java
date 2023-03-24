@@ -55,6 +55,10 @@ public class Cart {
         return this.items;
     }
 
+    public List<Product> getRemovedProducts() {
+        return removedProducts;
+    }
+
     @Override
     public String toString() {
         return "Cart{" +
